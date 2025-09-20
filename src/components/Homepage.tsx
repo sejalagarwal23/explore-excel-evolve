@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, BookOpen, MapPin, Target, TrendingUp, Users, CheckCircle2, Star, Shield, Award, Clock, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-education.jpg";
+import heroImage from "@/assets/hero-simple.jpg";
 
 const Homepage = () => {
   // Placeholder handlers for interactive elements
@@ -56,9 +56,9 @@ const Homepage = () => {
 
       {/* Hero Section */}
       <section id="hero" className="relative py-20 lg:py-32 bg-gradient-hero overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-foreground/40"></div>
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{ backgroundImage: `url(${heroImage})` }}
         ></div>
         <div className="relative container mx-auto px-4 text-center text-white">
